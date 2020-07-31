@@ -1,0 +1,65 @@
+.container-5 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0px 10px 50px black;
+}
+
+.flex-box-row-1, .flex-box-container-results {
+    display: flex;
+    padding: 10px; /*added 10px of space*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    
+}
+
+.flex-box-container-button{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 10px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6dplzidNV2VoSzp3zs6TW31bUsXDfurLLOg&usqp=CAU);
+    color:whitesmoke;
+}
+
+.flex-box-row-1 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6dplzidNV2VoSzp3zs6TW31bUsXDfurLLOg&usqp=CAU);
+    color:whitesmoke;
+}
+
+.flex-box-row-1 div{
+    height: 350px;
+    flex: 1;
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex-box-container-button button{
+    border: 1px solid black;
+}
+
+table, th, td {
+    padding: 5px;
+}
+
+.flex-box-your-box img, .flex-box-computer-box img {
+    height: 100px;
+    width: 80px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex-box-container-results div {
+    display: flex;
+    padding: 10px; /*added 10px of space*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+

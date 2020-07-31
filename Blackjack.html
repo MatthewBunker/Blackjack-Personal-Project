@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link Below is for buttons ***boostrapcdn.com***-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenges for JavaScript Crash Course</title> <!--Title of tab-->
+</head>
+<body>
+
+    <div class="container-5">
+        <h2>Challenge 5: Blackjack Challenge</h2>
+        <h5><span id="blackjack-result">1 Round = $100</span></h5>
+
+        <div class="flex-box-row-1">
+            <div class="flex-box-your-box">
+                <h2>You: <span id="your-blackjack-result">0</span></h2>
+            </div>
+
+            <div class="flex-box-computer-box">
+                <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+            </div>
+        </div>
+
+        <div class="flex-box-container-button">
+            <button class="btn-lg btn-primary mr-2" id="hit">Hit</button>
+            <button class="btn-lg btn-warning mr-2" id="stand">Stand</button>
+            <button class="btn-lg btn-danger mr-2" id="deal">Deal</button>
+        </div>
+
+        <div class="flex-box-container-results">
+            <div>
+                <h2>Current Pot: $<span id='money'>500</span></h2>
+            </div>
+            <table style="border: 1px solid black">
+                <tr style="border: 1px solid black">
+                    <th style="border: 1px solid black">Wins</th>
+                    <th style="border: 1px solid black">Losses</th>
+                    <th style="border: 1px solid black">Draws</th>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black"><span id="wins">0</span></td>
+                    <td style="border: 1px solid black"><span id="losses">0</span></td>
+                    <td style="border: 1px solid black"><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="Driver.js"></script>
+</body>
+</html>
